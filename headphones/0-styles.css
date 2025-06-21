@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    height: 3006px;
+    font-family: 'Source Sans 3', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.hero-background {
+    background-image: url(assets/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    /* width: 1400px; */
+    height: 800px;
+    padding: 2px 0;
+    margin: 0;
+}
+
+
+header img {
+    width: 161px;
+    height: 32px;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27.8px;
+    max-width: 1000px;
+    height: 32px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 312.24px;
+}
+
+.nav ul {
+    width: 255px;
+    display: inline-flex;
+    align-items: center;
+    gap: 21px;
+    height: 15px;
+}
+
+.nav ul li {
+    font-size: 12px;
+    display: inline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #FF6565;
+}
+
+.heading h1 {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.heading p {
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+main .hero-text {
+    width: 750px;
+    height: 313px;
+    display: inline-block;
+}
+
+main .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 53px;
+}
+
+button {
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    background: #FF6565;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 65px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    transition: transform 0.3s, box-shadow 0.3s;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    background-color: #dd4444;
+}
+
+main .text {
+    color: #fff;
+    line-height: 26px;
+    font-weight: 400;
+}
