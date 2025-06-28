@@ -116,8 +116,8 @@ button {
 
 button:hover {
     transform: translateY(-3px);
-    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
-    background-color: #dd4444;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.90);
+    background-color: #e54040;
 }
 
 main .text {
